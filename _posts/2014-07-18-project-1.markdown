@@ -1,12 +1,12 @@
 ---
-title: Dreams
+title: Timely Bin Packing
 subtitle: Website Design
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
+date: 2024-06-06
+img: 
+thumbnail: 
+alt: 
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
