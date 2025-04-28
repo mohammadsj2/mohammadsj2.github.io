@@ -30,10 +30,10 @@
                     
                     <!-- <li>
                         <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
                     </li> -->
+                    <!-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>  -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -45,12 +45,42 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in" style="color: black; text-shadow: 20px 20px 40px rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.5);">
-                    Welcome To My Website!
+                <div class="row">
+                    <div class="col text-center">
+                        <img src="img/myimage.jpg" alt="Your Picture" class="img-responsive img-circle" style="max-width: 25%; border: 2px solid #ddd; margin: 0 auto;">
+                    </div>
                 </div>
-                <div class="intro-heading" style="color: black; text-shadow: 20px 20px 40px rgb(255, 255, 255);background-color: rgba(255, 255, 255, 0.5);">It's Under Construction!</div>
-                <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="row" style="margin-top: 10px;">
+                    <div class="col text-center">
+                        <h2>Seyed Mohammad Seyed Javadi</h2>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+                    <div class="col text-center">
+                        <p>Master Student at Department of Electrical Engineering and Computer Science (EECS)</p>
+                        <p>York University, Toronto, Canada.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <ul class="list-inline social-buttons">
+                            {% for network in site.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Terms of Use</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
             </div>
+            
+            
         </div>
     </header>
 

@@ -46,6 +46,12 @@ description: "The personal website of Seyed Mohammad Seyed Javadi, a master stud
 social:
   - title: github
     url: https://github.com/mohammadsj2
+  - title: linkedin
+    url: https://www.linkedin.com/in/seyed-mohammad-seyed-javadi-b0b7abb3/
+  - title: envelope
+    url: mailto:smjavadi@yorku.ca
+  - title: google
+    url: https://scholar.google.com/citations?user=SRp6MSgAAAAJ&hl=en
 
 # Postal address (add as many lines as necessary)
 address:
